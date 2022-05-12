@@ -35,6 +35,9 @@ body{
     position: relative;
     transition: transform 0.5s linear;
 }
+.container.show-nav .circle{
+    transform: rotate(-70deg);
+}
 .circle button{
     cursor: pointer;
     position: absolute;
@@ -95,7 +98,7 @@ nav ul li + li + li{
 }
 .content{
     max-width: 1000px;
-    margin: 50 auto;
+    margin: 50px auto;
 }
 .content h1{
     margin: 0;
